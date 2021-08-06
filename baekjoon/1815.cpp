@@ -34,6 +34,7 @@ int main()
             s.push_front(tmp);
 
         }
+        
         else
         {
             s.push_back(i);
