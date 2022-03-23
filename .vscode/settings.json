@@ -1,0 +1,25 @@
+{
+    "files.associations": {
+        "ios": "cpp",
+        "algorithm": "cpp",
+        "vector": "cpp",
+        "queue": "cpp",
+        "iostream": "cpp",
+        "deque": "cpp",
+        "array": "c",
+        "iterator": "c",
+        "string": "c",
+        "string_view": "c",
+        "iosfwd": "cpp",
+        "__hash_table": "cpp",
+        "__split_buffer": "cpp",
+        "bitset": "cpp",
+        "initializer_list": "cpp",
+        "stack": "cpp",
+        "unordered_map": "cpp",
+        "utility": "cpp",
+        
+
+        }
+    }
+}
