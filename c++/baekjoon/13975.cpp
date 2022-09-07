@@ -21,8 +21,8 @@ void solve(){
     }
     long long ans =0;
     while(vec.size()>1){
-        int a = vec.top(); vec.pop();
-        int b=  vec.top(); vec.pop();
+        long long a = vec.top(); vec.pop();
+        long long b=  vec.top(); vec.pop();
         ans+= (a+b);
         vec.push(a+b);
     }

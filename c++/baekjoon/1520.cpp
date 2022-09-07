@@ -21,7 +21,7 @@ int dfs(int r, int c)
         //cout <<"도달";
         return 1;
     }
-    if (dp[r][c] != -1)
+    if (dp[r][c] != 0 )
     {
         return dp[r][c];
     }
