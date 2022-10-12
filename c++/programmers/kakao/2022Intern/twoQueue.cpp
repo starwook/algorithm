@@ -7,7 +7,7 @@ using namespace std;
 int solution(vector<int> queue1, vector<int> queue2)
 {
     int answer = -2;
-    int maxNum = (queue1.size()+queue2.size())*2;
+    int maxNum = queue1.size()+queue2.size();
     int a = queue1.size()-1;
     int az =0;
     int b = queue2.size()-1;
@@ -32,7 +32,7 @@ int solution(vector<int> queue1, vector<int> queue2)
         return -1;
     }
     cout<< x<<y<<"\n";
-    for(int i=0;i<maxNum;i++){
+    for(int i=0;i<maxNum+1;i++){
         if(x>y){
             // cout <<x <<"= x bigger\n";
             x -= que1.front();
