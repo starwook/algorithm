@@ -41,13 +41,13 @@ void bfs(int start){
                     visited[vec[a][i]] =red;
                 }
             }
-            // else{
-            //     if(visited[vec[a][i]] == visited[a]){
-            //         // cout <<"\n"<<a <<"와 색깔이 같은 "<<vec[a][i]<<"\n";
-            //         found =false;
-            //         return;
-            //     }
-            // }
+            else{
+                if(visited[vec[a][i]] == visited[a]){
+                    // cout <<"\n"<<a <<"와 색깔이 같은 "<<vec[a][i]<<"\n";
+                    found =false;
+                    return;
+                }
+            }
         }
     }
 }
@@ -85,7 +85,7 @@ int main()
             }
         }
         
-        if(check()){
+        if(found){
             cout <<"YES"<<"\n";
         }
         else{

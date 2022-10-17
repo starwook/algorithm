@@ -35,9 +35,9 @@ int main()
         int cost = -pq.top().first;
         int toWhere = pq.top().second;
         pq.pop();
-        // if(visited[toWhere]!=cost){ // 지금 중간 기점으로 하는 곳을 이미 방문했다면? 방문하지 않더라도 이미 크다면? (이전에 갱신된 곳이라면 visited[toWhere] = cost가됨) 
-        //     continue;
-        // }
+        if(visited[toWhere]!=cost){ // 지금 중간 기점으로 하는 곳을 이미 방문했다면? 방문하지 않더라도 이미 크다면? (이전에 갱신된 곳이라면 visited[toWhere] = cost가됨) 
+            continue;
+        }
         for(int i=0;i<vec[toWhere].size();i++){
             int next = vec[toWhere][i].first;
             int ncost = vec[toWhere][i].second +cost;

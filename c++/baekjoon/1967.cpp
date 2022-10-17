@@ -25,7 +25,6 @@ void dfs(int a,int b){
     }
     visited[a] =1;
     for(int i=0;i<vec[a].size();i++){
-
         dfs(vec[a][i].first,b+vec[a][i].second);
     }
 
