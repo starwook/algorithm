@@ -48,19 +48,15 @@ int main()
             int newX = x+xi[i];
             int newY = y+yi[i];
             if(newX>=0&&newX<3&&newY>=0&&newY<3){
-
                 string tmp = now;
                 swap(tmp[x*3+y],tmp[newX*3+newY]);
-               
-               
-                
                 if(stringSet.find(tmp)==stringSet.end()){
                     stringSet.insert(tmp);
                     que.push(make_pair(tmp,nowCnt+1));
                 }
             }
         }
-        
+
     }
     cout<<ans;
     return 0;
