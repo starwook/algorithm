@@ -137,7 +137,7 @@ int main()
     else{
         cout <<"0";
     }
-    cout << "\n";
-    show();
+    // cout << "\n";
+    // show();
     return 0;
 }
