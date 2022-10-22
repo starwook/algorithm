@@ -15,9 +15,7 @@ int arr[100001];
 int minNum = -1;
 int howMuch;
 map<int, int> m;
-void check(int x)
-{
-}
+
 void bfs(int a)
 {
 
@@ -32,6 +30,7 @@ void bfs(int a)
         visited[x] = 1;
         if (x == k)
         {
+
             if (minNum == -1)
             {
                 minNum = dist[x];
