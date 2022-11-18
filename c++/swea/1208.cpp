@@ -9,14 +9,14 @@
 #include <set>
 using namespace std;
 int blockArr[101];
-#define blockSize 11
+#define blockSize 100
 int dump;
 int diff;
 int maxIndex = 1;
 int minIndex = 1;
 void show();
 int dumping()
-{
+
     for (int i = 1; i <= blockSize; i++)
     {
         if(blockArr[maxIndex]< blockArr[i]){
