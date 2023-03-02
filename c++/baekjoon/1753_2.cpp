@@ -20,9 +20,9 @@ void dijkstra(int start){
         int current = pq.top().second;
         int distance = pq.top().first;
         pq.pop();
-        if(arr[current] < distance){
-            continue;
-        }
+        // if(arr[current] < distance){
+        //     continue;
+        // }
         for(int i=0;i<vec[current].size();i++){
             int next = vec[current][i].first;
             int newDistance = vec[current][i].second+distance;

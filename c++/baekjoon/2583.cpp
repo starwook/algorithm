@@ -47,10 +47,12 @@ int main()
     for(int i=0;i<n;i++){
         for(int j=0;j<m;j++){
             if(arr[i][j] ==0 && !visited[i][j]){
+                cnt++;
                 vec.push_back(dfs(i,j));
             }
         }
     }
+    cout<<cnt<<"\n";
     sort(vec.begin(),vec.end());
     for(int i=0;i<vec.size();i++){
         cout<<vec[i]<<" ";

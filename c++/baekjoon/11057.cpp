@@ -23,6 +23,7 @@ int main()
                 continue;
             }
             arr[i][j] = arr[i][j-1]+arr[i-1][j];
+            arr[i][j] %=10007;
         }
     }
     int cnt=0;
