@@ -13,7 +13,7 @@ int xi[4] ={-1,1,0,0};
 int yi[4] = {0,0,-1,1};
 int waterHeight;
 int n;
-int ans;
+int ans=1;
 using namespace std;
 void bfs(int r,int c){
     queue<pair<int,int> > que;

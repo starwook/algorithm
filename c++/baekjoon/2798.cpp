@@ -44,7 +44,9 @@ int main()
     for(int i=1;i<=n;i++){
         cin >>arr[i];
     }
-    bruteForce(1, 0, 0);
+    for(int i=1;i<=n-2;i++){
+        bruteForce(i,0,0);
+    }
     cout<<ans;
 
 
