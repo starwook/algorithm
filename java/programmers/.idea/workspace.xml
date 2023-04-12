@@ -9,6 +9,7 @@
       <change beforePath="$PROJECT_DIR$/../2021 Dev-matching/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2021 Dev-matching/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../2021 Dev-matching/2021 Dev-matching.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../2021 Dev-matching/src/행렬테두리회전하기.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../로또최고순위/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../로또최고순위/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +45,20 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="2021 Dev-matching" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -53,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1681297779234</updated>
       <workItem from="1681297781482" duration="4533000" />
-      <workItem from="1681304252356" duration="4000000" />
+      <workItem from="1681304252356" duration="7182000" />
     </task>
     <servers />
   </component>
