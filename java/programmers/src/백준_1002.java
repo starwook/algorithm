@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class Main {
+public class 백준_1002 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
