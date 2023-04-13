@@ -63,3 +63,6 @@ public class 뮤탈리스크 {
         System.out.println();
     }
 }
+//1.Array.sort는 객체만 가능, 비어있는 곳 있으면 안 됨(특정 인덱스만 하는 거 불편)
+//Array.fill 1차원 배열만 가능
+//dp 할 때 초깃값 -1조심
