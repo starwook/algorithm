@@ -8,8 +8,8 @@ public class k번쨰_수 {
                 System.out.println(tmpArray);
                 answer.add(tmpArray[commands[i][2]-1]);
                 Arrays.sort(tmpArray);
-                return answer.stream().mapToInt(Integer::intValue).toArray();
             }
+            return answer.stream().mapToInt(Integer::intValue).toArray();
         }
     }
 }
