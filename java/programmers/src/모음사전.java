@@ -4,6 +4,8 @@ public class 모음사전 {
         Set<String> set = new LinkedHashSet<>();
         char[] chars = {'A','E','I','O','U'};
         public int solution(String word) {
+            Queue<Integer> queue = new LinkedList<>();
+            Stack<Integer> stack = new Stack<>();
 
             bf(0,"");
             List<String> newList = new ArrayList<>();
