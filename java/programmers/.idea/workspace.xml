@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2988f7ab-ea7d-4c24-9060-e53b45f25959" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/스킬테스트2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/택배배달과수거하기.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/폰켓못.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../2021 Dev-matching/.idea/dbnavigator.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../2021 Dev-matching/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2021 Dev-matching/.idea/misc.xml" afterDir="false" />
@@ -95,7 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1681297779234</updated>
       <workItem from="1681297781482" duration="4533000" />
-      <workItem from="1681304252356" duration="46057000" />
+      <workItem from="1681304252356" duration="49614000" />
     </task>
     <servers />
   </component>
