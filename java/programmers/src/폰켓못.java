@@ -11,7 +11,6 @@ public class 폰켓못 {
                     break;
                 }
                 pokemons.add(nums[i]);
-
             }
             int answer = pokemons.size();
             return answer;
