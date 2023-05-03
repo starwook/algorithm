@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2988f7ab-ea7d-4c24-9060-e53b45f25959" name="Changes" comment="feat: 단어변환">
-      <change afterPath="$PROJECT_DIR$/src/여행경로.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +87,7 @@
       <workItem from="1681741270514" duration="1256000" />
       <workItem from="1682519181611" duration="2395000" />
       <workItem from="1682777869428" duration="598000" />
-      <workItem from="1683106326454" duration="8807000" />
+      <workItem from="1683106326454" duration="10877000" />
     </task>
     <task id="LOCAL-00001" summary="refactor: 설정 변경">
       <created>1681741293288</created>
