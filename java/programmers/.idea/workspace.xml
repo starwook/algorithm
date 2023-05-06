@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2988f7ab-ea7d-4c24-9060-e53b45f25959" name="Changes" comment="feat: 단어변환" />
+    <list default="true" id="2988f7ab-ea7d-4c24-9060-e53b45f25959" name="Changes" comment="feat: 단어변환">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,7 +87,7 @@
       <workItem from="1681741270514" duration="1256000" />
       <workItem from="1682519181611" duration="2395000" />
       <workItem from="1682777869428" duration="598000" />
-      <workItem from="1683106326454" duration="17050000" />
+      <workItem from="1683106326454" duration="18982000" />
     </task>
     <task id="LOCAL-00001" summary="refactor: 설정 변경">
       <created>1681741293288</created>
