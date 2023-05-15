@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2988f7ab-ea7d-4c24-9060-e53b45f25959" name="Changes" comment="feat: 단어변환">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/징검다리_건너기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/징검다리_건너기.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/소프티어_예시.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/소프티어_예시.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +89,8 @@
       <workItem from="1682519181611" duration="2395000" />
       <workItem from="1682777869428" duration="598000" />
       <workItem from="1683106326454" duration="22175000" />
-      <workItem from="1683812045393" duration="6445000" />
+      <workItem from="1683812045393" duration="7353000" />
+      <workItem from="1683951674798" duration="162000" />
     </task>
     <task id="LOCAL-00001" summary="refactor: 설정 변경">
       <created>1681741293288</created>
