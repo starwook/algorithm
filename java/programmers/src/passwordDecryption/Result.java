@@ -5,16 +5,33 @@ class Result {
 
     public static String decryptPassword(String s) {
         String tmp="";
+        Queue<Character> charStack = new LinkedList<>();
+        Stack<Character> intStack = new Stack<>();
         for(int i=0;i<s.length();i++){
-            if(i<s.length()-1){
-                if(s.charAt(i)>'a'&&s.charAt(i)<'z' &&s.charAt(i+1)>'A'&&s.charAt(i+1)<'Z'){
-                    tmp+=s.charAt(i+1);
-                    tmp+=s.charAt(i);
-                    tmp+='*';
-                }
+            if(s.charAt(i)>='1'&&s.charAt(i)<='9') {
+                intStack.add(s.charAt(i));
+                continue;
             }
-            if(s.charAt(i)>='0'&&s.charAt(i)<='9'){
-                tmp+='0';
+            if(s.charAt(i)>='a'&&s.charAt(i)<='z'){
+                charStack.add(s.charAt(i));
+            }
+            if(s.charAt(i)>='A'&&s.charAt(i)<='Z'){
+                charStack.add(s.charAt(i));
+            }
+        }
+        for(int i=0;i<s.length();i++){
+            if(s.charAt(i)=='0'){
+                tmp+= intStack.pop();
+                continue;
+            }
+            if(s.charAt(i) =='*'){
+                char last = tmp.charAt(tmp.length()-1);
+                char first = tmp.charAt(tmp.length()-2);
+                tmp = tmp.substring(0,tmp.length()-2)+last+first;
+                continue;
+            }
+            if(!charStack.isEmpty() &&s.charAt(i) == charStack.peek()){
+                tmp+=charStack.poll();
             }
         }
         // Write your code here
