@@ -10,7 +10,7 @@ class Pair {
     }
 }
 
-class Solution {
+class 게임_맵_최단거리 {
     int[] cDirection ={0,0,-1,1};
     int[] rDirection ={-1,1,0,0};
     int[][] visited = new int[100][100];
