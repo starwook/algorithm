@@ -2,8 +2,94 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2988f7ab-ea7d-4c24-9060-e53b45f25959" name="Changes" comment="feat: 단어변환">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ActiveTraders/ActiveTraders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ActiveTraders/ActiveTraders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021 Dev-matching.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaAlgorithm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/AI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/ActiveTraders/Result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/ActiveTraders/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/FizzBuzz.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/H_index.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/OliveYoung1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/OliveYoung2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/OliveYoung3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/k번쨰_수$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/k번쨰_수.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/passwordDecryption/Result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/passwordDecryption/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/가장큰수$Solution$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/가장큰수$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/가장큰수.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/개인정보_수집_유효기간$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/개인정보_수집_유효기간.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/게임_맵_최단거리.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/괄호변환.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/네트워크$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/네트워크.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/다단계칫솔판매$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/다단계칫솔판매.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/단어변환$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/단어변환.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/도둑질.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/등굣길$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/등굣길.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/모음사전$Solution$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/모음사전$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/모음사전.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/문자열_압축$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/문자열_압축.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/뮤탈리스크.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/백준_1002.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/베스트앨범$Solution$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/베스트앨범$Solution$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/베스트앨범$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/베스트앨범$Song.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/베스트앨범.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/벽부수고_이동하기/Solution$NextMove.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/벽부수고_이동하기/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/벽부수고_이동하기/벽부수고_이동하기.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/불량_사용자.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/소수찾기.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/소프티어_예시.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/스킬테스트2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/여행경로.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/완주하지_못한_선수.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/우테코_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/위장$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/위장.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/이모티콘_할인행사$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/이모티콘_할인행사$TmpPrice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/이모티콘_할인행사.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/자물쇠와_열쇠$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/자물쇠와_열쇠.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/전력망을_둘로_나누기$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/전력망을_둘로_나누기.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/정수_삼각형$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/정수_삼각형.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/징검다리_건너기$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/징검다리_건너기.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/카펫$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/카펫.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/코딩_테스트_공부$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/코딩_테스트_공부.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/타겟_넘버.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/택배배달과수거하기$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/택배배달과수거하기.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/튜플$Solution$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/튜플$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/튜플.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/퍼즐조각채우기$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/퍼즐조각채우기.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/폰켓못$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/폰켓못.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/피로도$DungeonInformation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/피로도$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/피로도.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/행렬테두리회전하기$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/행렬테두리회전하기.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 Dev-matching/호식이치킨.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,21 +135,21 @@
   <component name="RunManager" selected="Application.벽부수고_이동하기">
     <configuration name="호식이치킨" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="호식이치킨" />
-      <module name="2021 Dev-matching" />
+      <module name="javaAlgorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="OliveYoung2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OliveYoung2" />
-      <module name="2021 Dev-matching" />
+      <module name="javaAlgorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="passwordDecryption.Solution" />
-      <module name="2021 Dev-matching" />
+      <module name="javaAlgorithm" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="passwordDecryption.*" />
@@ -76,7 +162,7 @@
     </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Solution" />
-      <module name="2021 Dev-matching" />
+      <module name="javaAlgorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -90,13 +176,26 @@
     </configuration>
     <configuration name="벽부수고_이동하기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="벽부수고_이동하기.벽부수고_이동하기" />
-      <module name="2021 Dev-matching" />
+      <module name="javaAlgorithm" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="벽부수고_이동하기.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="javaAlgorithm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="javaAlgorithm" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -128,7 +227,7 @@
       <workItem from="1683812045393" duration="7353000" />
       <workItem from="1683951674798" duration="162000" />
       <workItem from="1684502656771" duration="5220000" />
-      <workItem from="1684507977325" duration="4731000" />
+      <workItem from="1684507977325" duration="6051000" />
     </task>
     <task id="LOCAL-00001" summary="refactor: 설정 변경">
       <created>1681741293288</created>
