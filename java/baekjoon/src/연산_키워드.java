@@ -29,6 +29,7 @@ class 연산_키워드 {
             newTmp+="\n";
             newTmp+=toAddString;
         }
+
         if(nextType=="*"){
            for(int i=0;i<Integer.parseInt(tmp);i++){
                newTmp+=makeBefore(toAdd);
@@ -46,4 +47,5 @@ class 연산_키워드 {
     public static String makeAfter(String str){
         return "</"+str+">";
     }
+
 }
