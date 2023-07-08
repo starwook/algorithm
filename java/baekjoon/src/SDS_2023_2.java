@@ -53,6 +53,11 @@ public class SDS_2023_2 {
                     MIN_VALUE = Math.min(MIN_VALUE,newProducts.get(index).originalPrice);
                     MAX_VALUE = Math.max(MAX_VALUE,newProducts.get(index).originalPrice);
                 }
+                index = upperBound(newProducts,newCoin);
+                if(index!=newProducts.size() && newProducts.get(index).newPrice==newCoin){
+                    MIN_VALUE = Math.min(MIN_VALUE,newProducts.get(index).originalPrice);
+                    MAX_VALUE = Math.max(MAX_VALUE,newProducts.get(index).originalPrice);
+                }
                 if(index !=0){
                     if(newProducts.get(--index).newPrice ==newCoin){
                         MIN_VALUE = Math.min(MIN_VALUE,newProducts.get(index).originalPrice);
@@ -72,6 +77,16 @@ public class SDS_2023_2 {
         }
         return end;
     }
+    private static int upperBound(List<NewProduct> newProducts,int target){
+        int begin =0;
+        int end = newProducts.size();
+        while(begin<end){
+            int mid = (begin+end)/2;
+            if(newProducts.get(mid).newPrice<=target) begin = mid+1;
+            else end=mid;
+        }
+        return end;
+    }
 
     private static void makeNewProduct() {
         for(int i=0;i<PRODUCT_COUNT;i++){
@@ -82,6 +97,8 @@ public class SDS_2023_2 {
         Collections.sort(newProducts, new Comparator<NewProduct>() {
             @Override
             public int compare(NewProduct o1, NewProduct o2) {
+                if(o1.newPrice==o2.newPrice)
+                    return o1.originalPrice-o2.originalPrice;
                 return o1.newPrice-o2.newPrice;
             }
         });
