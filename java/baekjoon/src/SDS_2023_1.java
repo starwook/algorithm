@@ -1,5 +1,5 @@
 import java.util.*;
-public class 크리스마스_트리 {
+public class SDS_2023_1 {
 
     public static int T, LIGHT_COUNT, SWITCH_COUNT, SWITCH_LIGHT_COUNT;
     public static int[] lightArr =new int[30];
