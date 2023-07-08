@@ -54,10 +54,6 @@ public class SDS_2023_2 {
                     MAX_VALUE = Math.max(MAX_VALUE,newProducts.get(index).originalPrice);
                 }
                 index = upperBound(newProducts,newCoin);
-                if(index!=newProducts.size() && newProducts.get(index).newPrice==newCoin){
-                    MIN_VALUE = Math.min(MIN_VALUE,newProducts.get(index).originalPrice);
-                    MAX_VALUE = Math.max(MAX_VALUE,newProducts.get(index).originalPrice);
-                }
                 if(index !=0){
                     if(newProducts.get(--index).newPrice ==newCoin){
                         MIN_VALUE = Math.min(MIN_VALUE,newProducts.get(index).originalPrice);
