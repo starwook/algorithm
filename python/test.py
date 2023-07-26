@@ -1,0 +1,1 @@
+print("hellomotheㄴㅇㄴㅇㄴㅇr fucker")
