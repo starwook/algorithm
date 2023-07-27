@@ -22,8 +22,8 @@ public class _2243 {
             else{
                 int target = Integer.parseInt(st.nextToken());
                 int foundCandyNode = findCandy(1,treeSize,1,target);
-                update(1,treeSize,1,foundCandyNode-treeSize+1,-1);
-                System.out.println(foundCandyNode-treeSize+1);
+                update(1,treeSize,1,foundCandyNode,-1);
+                System.out.println(foundCandyNode);
             }
         }
         bufferedWriter.flush();
@@ -40,7 +40,7 @@ public class _2243 {
         }
     }
     public static int findCandy(int left,int right,int node,int rank){
-        if(left==right) return node;
+        if(left==right) return left;
         if(rank<=tree[node*2]){ //왼쪽 "자식"에 있는지 확인!!!
             return findCandy(left,(left+right)/2,node*2,rank);
         }
