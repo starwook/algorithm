@@ -14,11 +14,18 @@ public class _1256 {
         zNum = Integer.parseInt(st.nextToken());
         k = Integer.parseInt(st.nextToken());
         init(aNum,zNum);
+        for(int i=0;i<=aNum;i++){
+            for(int j=0;j<=zNum;j++){
+                System.out.print(i+"aNum,"+j+":zNum:"+dp[i][j]+" ///");
+            }
+            System.out.println();
+        }
         if(k>dp[aNum][zNum]){
             System.out.println(-1);
             return;
         }
         System.out.println(findAnswer(aNum,zNum,k));
+
 
     }
     public static String findAnswer(int a,int z,int tmpK){
@@ -45,7 +52,6 @@ public class _1256 {
         return ret;
     }
     public static int init(int a,int z){
-
         if(a==0 ||z==0){
             dp[a][z] =1;
             return dp[a][z];
