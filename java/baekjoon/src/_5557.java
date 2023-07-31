@@ -21,7 +21,15 @@ public class _5557 {
             arr[i] = Integer.parseInt(st.nextToken());
         }
         lastNumber = arr[N-1];
+        for(int i=0;i<N;i++){
+            Arrays.fill(dp[i],-1);
+        }
         dp[0][arr[0]]=1;
+        System.out.println(dp[N-2][arr[N-1]]);
+
+    }
+
+    private static void bottoUp() {
         for(int i=0;i<N-1;i++){
             for(int number =0;number<=20;number++){
                 if(dp[i][number]!=0){
@@ -30,21 +38,6 @@ public class _5557 {
                 }
             }
         }
-        System.out.println(dp[N-2][arr[N-1]]);
-
     }
-    public static void findPath(int index,int number){
-        if(index==-1){
 
-            return;
-        }
-        int plusNum = arr[index]+arr[index+1];
-        int minusNum = arr[index]-arr[index+1];
-        if(plusNum>=0){
-
-        }
-        if(minusNum<=20){
-
-        }
-    }
 }
