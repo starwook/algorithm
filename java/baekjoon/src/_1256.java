@@ -14,12 +14,12 @@ public class _1256 {
         zNum = Integer.parseInt(st.nextToken());
         k = Integer.parseInt(st.nextToken());
         init(aNum,zNum);
-        for(int i=0;i<=aNum;i++){
-            for(int j=0;j<=zNum;j++){
-                System.out.print(i+"aNum,"+j+":zNum:"+dp[i][j]+" ///");
-            }
-            System.out.println();
-        }
+//        for(int i=0;i<=aNum;i++){
+//            for(int j=0;j<=zNum;j++){
+//                System.out.print(i+"aNum,"+j+":zNum:"+dp[i][j]+" ///");
+//            }
+//            System.out.println();
+//        }
         if(k>dp[aNum][zNum]){
             System.out.println(-1);
             return;
@@ -42,7 +42,7 @@ public class _1256 {
             }
             return ret;
         }
-        int check = init(a-1,z);
+        int check = dp[a-1][z];
         if(tmpK<=check){
             ret ='a'+findAnswer(a-1,z,tmpK);
         }
@@ -59,7 +59,7 @@ public class _1256 {
         if(dp[a][z]!=0){
             return dp[a][z];
         }
-        dp[a][z] = Math.min(init(a-1,z)+init(a,z-1),1000000001);
+        dp[a][z] = Math.min(init(a-1,z)+init(a,z-1),1000000000);
         return dp[a][z];
     }
 }
