@@ -28,7 +28,7 @@ public class _11266 {
         }
         for(int i=1;i<=V;i++){
             if(depth[i]==0) {
-                depthNumber=1;
+                depthNumber=1; //초기화
                 dfs(i,true);
             }
         }
@@ -42,14 +42,15 @@ public class _11266 {
         int ret = depth[nodeNumber];
         int childCount =0;
         for(Integer nextNode : graph[nodeNumber]){
-            if(depth[nextNode] !=0){
+            if(depth[nextNode] !=0){ //이미 방문한 곳(자신의 조상일 수도, 자신보다 늦게 방문한 곳일 수도 있음)
                 ret = Math.min(ret,depth[nextNode]);
                 continue;
             }
             childCount++;
             int nextRet = dfs(nextNode,false);
-            if(nextRet>=depth[nodeNumber]&& !isRoot) answer.add(nodeNumber);
-            ret =Math.min(nextRet,ret);
+            if(nextRet>=depth[nodeNumber]&& !isRoot) answer.add(nodeNumber); //루트면 첫번째 조건은 언제나 true
+            //자식들이 갈 수 있는 곳중에 나보다 먼저 방문한 곳이 없음
+            ret =Math.min(nextRet,ret); //(자식이 갈 수 있는 곳이 나보다 먼저 간 곳일 수도 있음-> 단절점이아님)
         }
         if(childCount>=2&&isRoot){
             answer.add(nodeNumber);
