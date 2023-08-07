@@ -48,6 +48,7 @@ public class _3176 {
         depth = new int[N+1];
         depth[1] =1;
         setDepth(1); //O(N+E)
+        System.out.println(maxDistance[2][0]);
         for(int k=0;k<maxK;k++){ //거리가 2^k승 차이나는 것부터 다 구함 //O(n)
             for(int nodeNum =2;nodeNum<=N;nodeNum++){ //루트는 확인 안 해도 됨
                 int father = parent[nodeNum][k];
@@ -55,6 +56,8 @@ public class _3176 {
                     parent[nodeNum][k+1] = parent[father][k]; //부모 추가
                     minDistance[nodeNum][k+1] = Math.min(minDistance[nodeNum][k],minDistance[father][k]);
                     maxDistance[nodeNum][k+1] = Math.max(maxDistance[nodeNum][k],maxDistance[father][k]);
+//                    System.out.println(nodeNum+":"+maxDistance[nodeNum][k+1]+"/"+k);
+//                    System.out.println(maxDistance[father][k]);
                 }
             }
         }
@@ -105,7 +108,8 @@ public class _3176 {
                 maxValue = Math.max(maxValue,maxDistance[deeper][0]);
                 maxValue = Math.max(maxValue,maxDistance[lower][0]);
             }
-            System.out.println(minValue+" "+maxValue);
+//            System.out.println(minValue+" "+maxValue);
+            System.out.println(maxDistance[4][1]);
         }
 
     }
