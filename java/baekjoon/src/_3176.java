@@ -54,16 +54,16 @@ public class _3176 {
         depth = new int[N+1];
         depth[1] =1;
         setDepth(1); //O(N+E)
-<<<<<<< HEAD
+
         System.out.println(maxDistance[2][0]);
-=======
+
 //        for(int i=1;i<=N;i++){
 //            for(int k=0;k<3;k++){
 //                System.out.print(maxDistance[i][k]+" ");
 //            }
 //            System.out.println();
 //        }
->>>>>>> bda57d99cb944b2d066fbd10c9f076a886b4927c
+
         for(int k=0;k<maxK;k++){ //거리가 2^k승 차이나는 것부터 다 구함 //O(n)
             for(int nodeNum =2;nodeNum<=N;nodeNum++){ //루트는 확인 안 해도 됨
                 int father = parent[nodeNum][k];
@@ -118,12 +118,12 @@ public class _3176 {
                 maxValue = Math.max(maxValue,maxDistance[deeper][0]);
                 maxValue = Math.max(maxValue,maxDistance[lower][0]);
             }
-<<<<<<< HEAD
+
 //            System.out.println(minValue+" "+maxValue);
             System.out.println(maxDistance[4][1]);
-=======
+
             bw.write(minValue+" "+maxValue+"\n");
->>>>>>> bda57d99cb944b2d066fbd10c9f076a886b4927c
+
         }
         bw.flush();
         bw.close();
