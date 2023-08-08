@@ -1,7 +1,5 @@
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.*;
 import java.util.*;
 public class _3176 {
     public static int N,K;
@@ -12,21 +10,31 @@ public class _3176 {
     public static int[][] parent;
     public static int[][] maxDistance;
     public static int[][] minDistance;
-    public static List<Integer>[] graph;
+    public static List<Node>[] graph;
+    public static class Node{
+        public int number;
+        public int cost;
+
+        public Node(int number, int cost) {
+            this.number = number;
+            this.cost = cost;
+        }
+    }
     public static void setDepth(int number){
         for(int i=0;i<graph[number].size();i++){
-            int nextNode = graph[number].get(i);
-            if(depth[nextNode] !=0) continue;
-            depth[nextNode] = depth[number]+1;
-            parent[nextNode][0] = number;
-            setDepth(nextNode);
-            minDistance[nextNode][0] = firstCost[nextNode];
-            maxDistance[nextNode][0] = firstCost[nextNode];
+            Node nextNode = graph[number].get(i);
+            if(depth[nextNode.number] !=0) continue;
+            depth[nextNode.number] = depth[number]+1;
+            parent[nextNode.number][0] = number;
+            setDepth(nextNode.number);
+            minDistance[nextNode.number][0] = nextNode.cost;
+            maxDistance[nextNode.number][0] = nextNode.cost;
         }
     }
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         N = Integer.parseInt(br.readLine());
         maxDistance = new int[N+1][maxK];
         minDistance = new int[N+1][maxK];
@@ -39,16 +47,23 @@ public class _3176 {
             int from = Integer.parseInt(st.nextToken());
             int to = Integer.parseInt(st.nextToken());
             int cost = Integer.parseInt(st.nextToken());
-            firstCost[from] = cost;
-            firstCost[to] =cost;
-            graph[from].add(to);
-            graph[to].add(from);
+            graph[from].add(new Node(to,cost));
+            graph[to].add(new Node(from,cost));
         }
 
         depth = new int[N+1];
         depth[1] =1;
         setDepth(1); //O(N+E)
+<<<<<<< HEAD
         System.out.println(maxDistance[2][0]);
+=======
+//        for(int i=1;i<=N;i++){
+//            for(int k=0;k<3;k++){
+//                System.out.print(maxDistance[i][k]+" ");
+//            }
+//            System.out.println();
+//        }
+>>>>>>> bda57d99cb944b2d066fbd10c9f076a886b4927c
         for(int k=0;k<maxK;k++){ //거리가 2^k승 차이나는 것부터 다 구함 //O(n)
             for(int nodeNum =2;nodeNum<=N;nodeNum++){ //루트는 확인 안 해도 됨
                 int father = parent[nodeNum][k];
@@ -62,12 +77,7 @@ public class _3176 {
             }
         }
         K = Integer.parseInt(br.readLine());
-//        for(int i=1;i<=N;i++){
-//            for(int k=0;k<3;k++){
-//                System.out.print(minDistance[i][k]+" ");
-//            }
-//            System.out.println();
-//        }
+
         for(int i=0;i<K;i++){
             StringTokenizer st = new StringTokenizer(br.readLine());
             int lower = Integer.parseInt(st.nextToken());
@@ -108,9 +118,15 @@ public class _3176 {
                 maxValue = Math.max(maxValue,maxDistance[deeper][0]);
                 maxValue = Math.max(maxValue,maxDistance[lower][0]);
             }
+<<<<<<< HEAD
 //            System.out.println(minValue+" "+maxValue);
             System.out.println(maxDistance[4][1]);
+=======
+            bw.write(minValue+" "+maxValue+"\n");
+>>>>>>> bda57d99cb944b2d066fbd10c9f076a886b4927c
         }
+        bw.flush();
+        bw.close();
 
     }
 }
