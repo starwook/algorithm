@@ -30,7 +30,7 @@ public class _2357 {
             }
             else if(minTree[i*2+1]==0) minTree[i] = minTree[i*2];
             else {
-                minTree[i] = Math.min(minTree[i*2], minTree[i*2+1]);
+                minTree[i] = Math.min(minTree[i*2], minTree[i*2+1]); 
             }
 
         }
