@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2988f7ab-ea7d-4c24-9060-e53b45f25959" name="Changes" comment="feat: 단어변환" />
+    <list default="true" id="2988f7ab-ea7d-4c24-9060-e53b45f25959" name="Changes" comment="feat: 단어변환">
+      <change beforePath="$PROJECT_DIR$/../baekjoon/out/production/baekjoon/_2517$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../baekjoon/out/production/baekjoon/_2517$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baekjoon/out/production/baekjoon/_2517.class" beforeDir="false" afterPath="$PROJECT_DIR$/../baekjoon/out/production/baekjoon/_2517.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baekjoon/src/_2517.java" beforeDir="false" afterPath="$PROJECT_DIR$/../baekjoon/src/_2517.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/택배배달과수거하기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/택배배달과수거하기.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,16 +43,16 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RunManager" selected="Application.벽부수고_이동하기">
     <configuration name="호식이치킨" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="호식이치킨" />
@@ -130,6 +140,9 @@
       <workItem from="1687344001627" duration="3480000" />
       <workItem from="1687436098560" duration="8111000" />
       <workItem from="1688222724547" duration="668000" />
+      <workItem from="1688468216851" duration="626000" />
+      <workItem from="1693203348793" duration="6000" />
+      <workItem from="1693850085415" duration="3633000" />
     </task>
     <task id="LOCAL-00001" summary="refactor: 설정 변경">
       <created>1681741293288</created>
@@ -168,7 +181,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="refactor: 설정 변경" />
