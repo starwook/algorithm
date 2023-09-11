@@ -13,6 +13,9 @@ int n;
 int answer =2000000000;
 int answerStart;
 int answerEnd;
+bool cmp(int a,int b){
+    return a<b;
+}
 int main()
 {
     cin>>n;
@@ -23,7 +26,7 @@ int main()
     int end =n-1;
     answerStart = start;
     answerEnd = end;
-    sort(arr,arr+n);
+    sort(arr,arr+n,cmp);
     while(start!=end){
         int number = arr[start]+arr[end];
         if(answer>abs(number)){
