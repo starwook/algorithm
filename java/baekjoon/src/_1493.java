@@ -32,7 +32,6 @@ public class _1493 {
 
     }
     public static void found(int index,int nowLength,int nowWidth,int nowHeight){
-        System.out.println(index+"/"+nowLength+"/"+nowWidth+"/"+nowHeight);
         if(nowHeight==height ||nowWidth==width||nowLength==length) return;
         if(!can) return;
         for(int i=index;i>=0;i--) {
