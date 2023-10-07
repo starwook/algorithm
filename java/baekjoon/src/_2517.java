@@ -5,7 +5,6 @@ public class _2517 {
     public static int[] tree;
     public static Node[] rankArr;
     public static int[] answer;
-    public static Map<Integer,Integer> numbers = new LinkedHashMap<>();
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
@@ -13,7 +12,7 @@ public class _2517 {
         treeSize = 1;
         while(treeSize<N) treeSize*=2;
         tree = new int[treeSize*2];
-        rankArr = new Node[treeSize+1];
+        rankArr = new Node[treeSize];
         answer = new int[treeSize+1];
 
         Arrays.fill(rankArr,new Node(1000000001,0));
@@ -21,6 +20,7 @@ public class _2517 {
             int tmpNumber =  Integer.parseInt(br.readLine());
             rankArr[i] = new Node(tmpNumber,i+1);
         }
+        for(int i=0;i<N;i++) System.out.println(rankArr[i].speed);
         Arrays.sort(rankArr,(o1, o2) -> o1.speed -o2.speed);
 
         for(int i=0;i<N;i++){

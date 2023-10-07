@@ -22,7 +22,6 @@ public class _2467 {
             }
             if (sum == 0)
                 break;
-
             if (arr[e]+arr[s] > 0) e--;
             else s++;
         }
