@@ -26,12 +26,6 @@ public class _16724 {
             for(int j=0;j<M;j++){
                 if(visited[i][j]==0){
                     dfs(i,j);
-//                    for(int r=0;r<N;r++){
-//                        for(int c=0;c<M;c++){
-//                            System.out.print(visited[r][c]);
-//                        }
-//                        System.out.println();
-//                    }
                 }
 
             }
