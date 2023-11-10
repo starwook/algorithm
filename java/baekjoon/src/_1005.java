@@ -37,19 +37,21 @@ public class _1005 {
             int W = Integer.parseInt(br.readLine());
             Queue<Integer> queue = new LinkedList<>();
             for(int i=1;i<=N;i++){
-                maxNumberBefore[i] = timeToBuild[i];
                 if(sequenceCount[i]==0) queue.add(i);
             }
 
             while(!queue.isEmpty()){
                 int nowNumber = queue.poll();
+                answer = Math.max(answer,maxNumberBefore[nowNumber]+timeToBuild[nowNumber]);
+                if(nowNumber==W)break;
                 for(Integer nextNumber : graph[nowNumber]){
                     sequenceCount[nextNumber]--;
-                    maxNumberBefore[nextNumber] = Math.max(maxNumberBefore[nextNumber],maxNumberBefore[nowNumber]+ timeToBuild[nextNumber]);
+                    maxNumberBefore[nextNumber] = Math.max(maxNumberBefore[nextNumber],maxNumberBefore[nowNumber]+ timeToBuild[nowNumber]);
                     if(sequenceCount[nextNumber]==0) queue.add(nextNumber);
                 }
             }
-            System.out.println(maxNumberBefore[W]);
+            System.out.println(maxNumberBefore[W]+timeToBuild[W]);
+
         }
     }
 }
