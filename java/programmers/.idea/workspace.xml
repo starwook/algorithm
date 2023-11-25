@@ -8,9 +8,7 @@
       <change beforePath="$PROJECT_DIR$/../baekjoon/out/production/baekjoon/_2517$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../baekjoon/out/production/baekjoon/_2517$Node.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../baekjoon/out/production/baekjoon/_2517.class" beforeDir="false" afterPath="$PROJECT_DIR$/../baekjoon/out/production/baekjoon/_2517.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../baekjoon/src/_2517.java" beforeDir="false" afterPath="$PROJECT_DIR$/../baekjoon/src/_2517.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/택배배달과수거하기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/택배배달과수거하기.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +48,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -142,7 +141,7 @@
       <workItem from="1688222724547" duration="668000" />
       <workItem from="1688468216851" duration="626000" />
       <workItem from="1693203348793" duration="6000" />
-      <workItem from="1693850085415" duration="3633000" />
+      <workItem from="1693850085415" duration="4379000" />
     </task>
     <task id="LOCAL-00001" summary="refactor: 설정 변경">
       <created>1681741293288</created>
