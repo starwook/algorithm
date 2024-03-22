@@ -7,7 +7,6 @@ public class _도넛과막대그래프 {
         public int startNode;
         public List<Integer>[] nodes;
         public int[] answer = new int[4];
-        public PriorityQueue<Integer> pq = new PriorityQueue<>();
         public int[] solution(int[][] edges) {
 
             outCount = new int[1000001];
