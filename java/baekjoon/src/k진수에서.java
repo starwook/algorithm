@@ -22,6 +22,7 @@ public class k진수에서 {
             return true;
         }
         public StringBuilder change(int n,int k){
+            if(k==10) return new StringBuilder(Integer.toString(n)).reverse();
             String tmp ="";
             while(n>0){
                 tmp += (n%k);
