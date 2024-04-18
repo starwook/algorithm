@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="090a08f1-de78-4bb6-8113-ad8e13decd82" name="Changes" comment="feat: 로또의 최고 순위와 최저 순위">
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021 Dev-matching/.idea/dbnavigator.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021 Dev-matching/.idea/google-java-format.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021 Dev-matching/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021 Dev-matching/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021 Dev-matching/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021 Dev-matching/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021 Dev-matching/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2021 Dev-matching/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021 Dev-matching/2021 Dev-matching.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021 Dev-matching/src/행렬테두리회전하기.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../로또최고순위/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../로또최고순위/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/programmers/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +29,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2OK01aEYQUq97AkDH6vIJ5zR0pP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -45,12 +40,14 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="nodejs_package_manager_path" value="npm" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/intellij/algorithm/java/baekjoon&quot;
+  }
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -60,6 +57,12 @@
       <option name="presentableId" value="Default" />
       <updated>1681293751677</updated>
       <workItem from="1681293753623" duration="2796000" />
+      <workItem from="1690357411463" duration="28000" />
+      <workItem from="1690357461834" duration="23000" />
+      <workItem from="1690357511997" duration="22000" />
+      <workItem from="1694152521944" duration="24000" />
+      <workItem from="1695717109480" duration="49000" />
+      <workItem from="1696586004000" duration="19000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 로또의 최고 순위와 최저 순위">
       <created>1681297674364</created>
