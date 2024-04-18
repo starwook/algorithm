@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="2988f7ab-ea7d-4c24-9060-e53b45f25959" name="Changes" comment="feat: 단어변환">
-      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baekjoon/out/production/baekjoon/_2517$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../baekjoon/out/production/baekjoon/_2517$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baekjoon/out/production/baekjoon/_2517.class" beforeDir="false" afterPath="$PROJECT_DIR$/../baekjoon/out/production/baekjoon/_2517.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baekjoon/src/_2517.java" beforeDir="false" afterPath="$PROJECT_DIR$/../baekjoon/src/_2517.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,9 +33,6 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
   <component name="ProjectId" id="2OK8BfYpJqDjGLiBZPYiqSIDhaI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -42,11 +43,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/intellij/chagok",
-    "nodejs_package_manager_path": "npm"
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunManager" selected="Application.벽부수고_이동하기">
@@ -136,8 +139,9 @@
       <workItem from="1687344001627" duration="3480000" />
       <workItem from="1687436098560" duration="8111000" />
       <workItem from="1688222724547" duration="668000" />
-      <workItem from="1694152547256" duration="2155000" />
-      <workItem from="1695642062348" duration="410000" />
+      <workItem from="1688468216851" duration="626000" />
+      <workItem from="1693203348793" duration="6000" />
+      <workItem from="1693850085415" duration="4379000" />
     </task>
     <task id="LOCAL-00001" summary="refactor: 설정 변경">
       <created>1681741293288</created>
