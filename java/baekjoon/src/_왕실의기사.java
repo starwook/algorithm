@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Main {
+public class _왕실의기사 {
     public static int N,soldierCount,turnCount,totalDamage;
     public static int[][] map;
     public static Soldier[] soldiers;
