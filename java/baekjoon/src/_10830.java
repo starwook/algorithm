@@ -18,9 +18,18 @@ public class _10830 {
             for(int j=0;j<N;j++) originalArr[i][j] = Integer.parseInt(st.nextToken());
         }
         int[][] answer =separate(B);
+        if(B==1){
+            for(int i=0;i<N;i++){
+                for(int j=0;j<N;j++){
+                    System.out.print(originalArr[i][j]%1000+" ");
+                }
+                System.out.println();
+            }
+            return;
+        }
         for(int i=0;i<N;i++){
             for(int j=0;j<N;j++){
-                System.out.print(answer[i][j]%1000+" ");
+                System.out.print(answer[i][j]+" ");
             }
             System.out.println();
         }
