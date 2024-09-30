@@ -13,7 +13,7 @@ public class _1629 {
         A = Integer.parseInt(st.nextToken());
         B = Integer.parseInt(st.nextToken());
         C = Integer.parseInt(st.nextToken());
-        System.out.println(divAndConquer(A,B,C));
+        System.out.println(getByRepeat(A,B,C));
 
     }
     public static long divAndConquer(long base, long multipleCount,long mod){
@@ -27,6 +27,16 @@ public class _1629 {
             multipleCount /= 2;
         }
         return answer;
+    }
+
+    public static long getByRepeat(long base,int multipleCount,long mod){
+        if(multipleCount==1) return A%mod;
+        base = getByRepeat(base,multipleCount/2,mod)%mod;
+        base = base*base%mod;
+        if(multipleCount%2==1) {
+            base *= A;
+        }
+        return base%mod;
     }
 
     public static int divAndConquer2(int base, int multipleCount, int mod) {
