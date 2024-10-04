@@ -20,7 +20,6 @@ public class _10282 {
             c = Integer.parseInt(st.nextToken());
             distanceFromFirst = new int[n + 1];
             cango = new List[n + 1];
-            visited = new boolean[n + 1];
             answerCount = answerTime = 0;
             for (int i = 1; i <= n; i++) cango[i] = new ArrayList<>();
             for (int i = 1; i <= n; i++) {
@@ -40,15 +39,13 @@ public class _10282 {
 
             while (!queue.isEmpty()) {
                 Node node = queue.poll();
-                visited[node.index] = true;
-//                System.out.println(node.index+":nowIndex");
+                if(distanceFromFirst[node.index]<node.distance) continue;
                 for (Node nextNode : cango[node.index]) {
 //                    if (visited[nextNode.index]) continue;
                     if (distanceFromFirst[nextNode.index] > distanceFromFirst[node.index] + nextNode.distance) {
                         queue.add(new Node(nextNode.index, distanceFromFirst[node.index] + nextNode.distance));
                         distanceFromFirst[nextNode.index] = distanceFromFirst[node.index] + nextNode.distance;
 //                        System.out.println(distanceFromFirst[nextNode.index]);
-                        visited[nextNode.index] = true;
                     }
                 }
             }
