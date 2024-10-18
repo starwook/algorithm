@@ -1,6 +1,7 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.time.format.DateTimeFormatter;
 
 public class _1038 {
     public static int N;
@@ -18,6 +19,8 @@ public class _1038 {
 
             }
         }
+        String tmp;
 
     }
+
 }

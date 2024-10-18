@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <style>
+        body,html{
+            margin:0;
+            padding:0;
+            height: 100%;
+            display:flex;
+            flex-direction:column;
+            align-items: center;
+            font-family: '돋움',sans-serif;
+        }
+
+        .logo-container{
+            display:flex;
+            justify-content:center;
+            aligh-items: center;
+            height: auto;
+        }
+
+        .logo{
+            max-width: 100%;
+            height: auto;
+        }
+
+        .menu{
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .menu li{
+            margin: 0 15px;
+            font-size: 20px;
+        }
+
+        .main-image-container{
+            width: 100%
+            display: flex;
+            justify-content:center;
+        }
+
+        .main-image{
+            width: 100%;
+            max-width:100%;
+            height: auto;
+        }
+    </style>
+    <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded',function() {
+            var menuItems = document.querySelectorAll('.menu li');
+            menuItems.forEach(function(item) {
+                item.addEventListener('click',function(){
+                    alert(this.textContent);
+                });
+            });
+        });
+    </script>
+    <link rel="stylesheet" href="./index.css"/>
+    <script type="text/javascript" src="./index.js"></script>
+</head>
+<body>
+<div class ="logo-container">
+    <img src ="https://bit.ly/3NHywvI" alt ="Logo" class="logo">
+</div>
+<div class="menu-container">
+    <ul class="menu">
+        <li>연두 스토리</li>
+        <li>글로벌 연두</li>
+        <li>우리맛 레시피</li>
+    </ul>
+</div>
+<div class ="main-image-container">
+    <img src = "https://bit.ly/3mH5H6P" alt ="Main Image" class "main-image">
+</div>
+</body>
+</html>
