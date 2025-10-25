@@ -11,6 +11,7 @@ class 택배배달과_수거하기 {
             deliveries: IntArray,
             pickups: IntArray,
         ): Long {
+            val a = Int.MAX_VALUE
             var answer: Long = 0L
             for (i in 0 until n) {
                 if (deliveries[i] != 0) boxToDeliverI = i
